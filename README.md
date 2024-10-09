@@ -1,10 +1,10 @@
 <h1>Automate airmon-ng</h1>
 
 <h2>Description</h2>
-This script project automates many of the lines of code and configuration needed to activate a Wi-Fi adapter in Kali Linux. This includes assigning the interface, killing other processes  
-that may interfere, bringing the interface down and changing the MAC address of the device to a random MAC, bringing the interface back up, running a check to ensure the interface is in monitor mode,  
-and prompting the user for input to confirm the initiation of monitor mode. After we enter monitor mode, we are passively sniffing Wi-Fi traffic. We can even discover the names (SSIDs) of hidden networks  
-by simply waiting for new devices to join them or through other "active attacks" (deauthentication).
+This script project automates many of the lines of code and configuration needed to activate a Wi-Fi adapter in Kali Linux and cause it to enter Wi-Fi monitoring (passive sniffing). This includes assigning the interface, killing other processes  
+that may interfere, bringing the interface down and changing the MAC address of the interface to a random MAC (obfuscation), bringing the interface back up, running a check to ensure the interface is in monitor mode,  
+and prompting the user for input to confirm the initiation of airmon-ng. If we are in monitor mode and we run airmon-ng, we are now passively sniffing Wi-Fi traffic. Nearby Wi-FI Access Points will be revealed. We can even discover the names (SSIDs) of hidden APs  
+by simply waiting for new devices to join them (association) or through other "active attacks" (deauthentication).
 <br />
 
 
