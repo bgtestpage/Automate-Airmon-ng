@@ -7,6 +7,7 @@ and prompting the user for input to confirm the initiation of airmon-ng. If we a
 by simply waiting for new devices to join them (association) or through other "active attacks" (deauthentication).
 <br />
 
+[Script](https://github.com/bgtestpage/Automate-Airmon-ng/start-airmon.sh)
 
 <h2>Languages and Utilities</h2>
 
